@@ -1,0 +1,24 @@
+package com.company;
+
+import java.math.*;
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main (String[] args) {
+
+int UB = 40;
+int LB = 20;
+
+int range = (UB - LB) + 1;
+        System.out.println("Random:");
+        for (int i = 0; i <5; i++) {
+
+            int random = (int)(Math.random()* range) + LB;
+            System.out.println(random + ",");
+
+        }
+
+
+    }}
